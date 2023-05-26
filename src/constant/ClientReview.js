@@ -1,9 +1,9 @@
-import client1 from "../../assets/images/client1.svg";
-import client2 from "../../assets/images/client2.svg";
-import client3 from "../../assets/images/client3.svg";
-import bgImg1 from '../../assets/images/clientReview1.svg';
-import bgImg2 from '../../assets/images/clientReview2.svg'
-import bgImg3 from '../../assets/images/clientReview3.svg'
+import client1 from "../Assets/images/client1.svg";
+import client2 from "../Assets/images/client2.svg";
+import client3 from "../Assets/images/client3.svg";
+import bgImg1 from "../Assets/images/clientReview1.svg";
+import bgImg2 from "../Assets/images/clientReview2.svg";
+import bgImg3 from "../Assets/images/clientReview3.svg";
 
 export const ClientReview = [
   {
@@ -30,8 +30,7 @@ export const ClientReview = [
     bgImg: bgImg3,
     title: "Mpok Ina",
     name: "Karyawan Swasta",
-    review:
-      "“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“",
+    review: "“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“",
   },
   {
     id: "r4",
@@ -41,5 +40,5 @@ export const ClientReview = [
     name: "Pedagang Asongan",
     review:
       "Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal",
-  }
+  },
 ];

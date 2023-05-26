@@ -1,0 +1,92 @@
+@import './mixin';
+@layer components{
+    .active{
+        @apply  bg-[white] rounded-[32px] w-[84px] py-[9px] max-xs:w-[60px] max-xs:py-[4px]
+    }
+  
+}
+.slick-prev:before {
+    content: '' !important;
+}
+
+.slick-prev {
+    background: url('../images/leftAero.svg') !important;
+    background-repeat: no-repeat !important;
+    box-shadow: 0px 7.03125px 19.5312px rgba(0, 0, 0, 0.06) !important;
+    border-radius: 26.087px !important;
+    width: 50px !important;
+    height: 50px !important;
+    z-index: 100 !important;
+    background-color: white !important;
+    background-position: center !important;
+
+    @media (max-width :1440px) {
+        left: 0px !important;
+        top: 57% !important;
+    }
+
+    @media (max-width :map-get($breakpoints , lg)) {
+        left: 15px;
+    }
+
+    @media (max-width :map-get($breakpoints , md)) {
+        left: 98px;
+    }
+
+    @media (max-width :map-get($breakpoints , sm)) {
+        left: 50px;
+    }
+
+    @media (max-width :map-get($breakpoints , xs)) {
+        left: 1px;
+    }
+}
+.slick-prev:focus,
+.slick-prev:hover {
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.slick-next:before {
+    content: '' !important;
+}
+
+.slick-next {
+    background: url('../images/rightAero.svg') !important;
+    background-repeat: no-repeat !important;
+    box-shadow: 0px 7.03125px 19.5312px rgba(0, 0, 0, 0.06) !important;
+    border-radius: 26.087px !important;
+    width: 50px !important;
+    height: 50px !important;
+    z-index: 100 !important;
+    background-color: white !important;
+    background-position: center !important;
+
+
+    @media (max-width :1440px) {
+        right: 0px !important;
+        top:57% !important;
+    }
+
+    @media (max-width :map-get($breakpoints , lg)) {
+        right: 15px;
+    }
+
+    @media (max-width :map-get($breakpoints , md)) {
+        right: 98px;
+    }
+
+    @media (max-width :map-get($breakpoints , sm)) {
+        right: 50px;
+    }
+
+    @media (max-width :map-get($breakpoints , xs)) {
+        right: 1px;
+    }
+
+    .slick-next:focus,
+    .slick-next:hover {
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
