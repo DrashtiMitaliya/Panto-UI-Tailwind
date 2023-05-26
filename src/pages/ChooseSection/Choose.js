@@ -2,9 +2,6 @@ import React from 'react'
 import { chooseData } from '../../components/constant/ChooseData';
 import aero from '../../Assets/images/orange_aero.svg'
 const Choose = () => {
-
-
-
     return (
         <div className='grid'>
             <div className="row flex px-[80px] py-[120px]">
