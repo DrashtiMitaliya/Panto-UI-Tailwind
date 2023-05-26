@@ -1,6 +1,7 @@
 import './Assets/scss/App.scss';
 import Choose from './pages/ChooseSection/Choose';
 import Experience from './pages/ExperienceSection/Experience';
+import Footer from './pages/Footer/Footer';
 import Hero from './pages/HeroSection/Hero';
 import Material from './pages/MaterialSection/Material';
 import Product from './pages/ProductSection/Product';
@@ -15,6 +16,7 @@ function App() {
      <Experience/>
      <Material/>
      <Review/>
+     <Footer/>
     </div>
   );
 }

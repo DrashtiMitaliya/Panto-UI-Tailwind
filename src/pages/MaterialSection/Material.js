@@ -11,7 +11,7 @@ const Material = () => {
             <div className="font-Gilroy-Medium text-[#E58411] text-[18px] leading-[21px] mb-[20px] tracking-[0.175em] max-xs:text-[14px] max-sm:text-[15px] max-md:text-[16px]">
               MATERIALS
             </div>
-            <div className="font-Gilroy-Bold text-[42px] leading-[49px] mb-[20px] w-[413px] max-xl:w-full max-xs:text-[30px] max-xs:leading-[37px] max-sm:text-[32px] max-sm:leading-[40px] max-md:text-[38px] max-md:leading-[38px] max-lg:text-[40px] max-l;g:leading-[40px]">
+            <div className="font-Gilroy-Bold text-[42px] leading-[49px] mb-[20px] w-[413px] max-xl:w-full max-xs:text-[30px] max-xs:leading-[37px] max-sm:text-[32px] max-sm:leading-[40px] max-md:text-[38px] max-md:leading-[38px] max-lg:text-[40px] max-lg:leading-[40px]">
               Very Serious Materials For Making Furniture
             </div>
             <div className="font-Gilroy-Regular text-[18px] leading-[33px] opacity-[0.8] mb-[24px] w-[556px] max-xl:w-full  max-xs:text-[12px] max-xs:leading-[28px] max-sm:text-[15px] max-sm:leading-[30px] max-md:text-[16px] max-md:leading-[32px] max-lg:text-[17px]">

@@ -1,62 +1,17 @@
 import React from "react";
-import Slider from "react-slick";
-import { ClientReview } from "../../constant/ClientReview";
-import union from "../../Assets/images/Union.svg";
+import ReviewSlider from "../ReviewSlider/ReviewSlider";
 
 const Review = () => {
-  var settings = {
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    initialSlide: 1,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 2,
-        },
-      },
-    ],
-  };
+  
   return (
-    <div className="mt-[240px]">
-      <div className="text-[#E58411] font-Gilroy-Medium text-center tracking-[0.175em] mb-[20px]">
+    <div className="mt-[240px] max-xs:mt-[100px] max-sm:mt-[100px] max-md:mt-[150px] max-lg:mt-[170px]">
+      <div className="text-[#E58411] font-Gilroy-Medium text-center tracking-[0.175em] mb-[20px] max-xs:text-[14px] max-sm:text-[15px] max-md:text-[16px]">
         TESTIMONIALS
       </div>
-      <div className="font-Gilroy-Bold text-center text-[42px] leading-[49px] mb-[60px]">
+      <div className="font-Gilroy-Bold text-center text-[42px] leading-[49px] mb-[60px] max-xs:text-[30px] max-xs:leading-[37px] max-sm:text-[32px] max-sm:leading-[40px] max-md:text-[38px] max-md:leading-[38px] max-lg:text-[40px] max-l;g:leading-[40px] max-xs:mb[30px] max-sm:mb-mb[40px] max-md:mb-[50px] max-lg:mb-[55px]">
         Our Client Reviews
       </div>
-      <div className="container mx-auto xl:max-w-[1186px] ">
-      <Slider {...settings}>
-        {ClientReview.map((client) => (
-          <>
-            <div
-              style={{
-                background: `url('${client.bgImg}')`,
-                margin: "auto",
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",
-              }}
-              className="h-[476px] w-[95%] relative"
-            >
-              <div className="absolute h-[206px] w-[334px]  bottom-[18px] left-[60px] bg-center   bg-union bg-contain bg-no-repeat ">
-                
-              </div>
-            </div>
-          </>
-        ))}
-      </Slider></div>
+    <ReviewSlider/>
     </div>
   );
 };
