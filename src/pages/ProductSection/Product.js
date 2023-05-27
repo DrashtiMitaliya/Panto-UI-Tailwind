@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import ProductCard from "../../components/Product/ProductCard";
-import Slider from "react-slick";
 import ChairSection from "../ChairSection/ChairSection";
 import orangeAero from '../../Assets/images/orange_aero.svg'
 

@@ -50,7 +50,7 @@ const ChairSection = () => {
   return (
     <Slider {...settings}>
       {ChairDataNew.map((chair) => (
-        <div className="relative px-[21px]  mt-[130px]  ">
+        <div className="relative px-[21px]  mt-[130px] max-xl:w-60 ">
           <div className="h-[255px]  bg-[#FAFAFA]">
             <img src={chair.url} className="absolute top-[-35px] max-xxl:left-[35px] left-[2rem] z-100 " alt="" />
           </div>
