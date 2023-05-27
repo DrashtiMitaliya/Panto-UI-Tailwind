@@ -15,9 +15,11 @@ const Hero = () => {
         Turn your room with panto into a lot more minimalist and modern with ease and speed
       </div>
 
+     
+
 
       <div className="mx-auto w-[300px] sm:w-[344px] relative">
-        <input className='w-full rounded-[42px] py-[15.5px] pl-[20px]  bg-[#ffffff26] font-Gilroy-Regular text-[white] opacity-[0.8] text-[18px] leading-[27px] sm:placeholder:text-[18px] max-xs:py-[12px] ' type="text" placeholder='Search furniture' />
+        <input className='w-full rounded-[42px] py-[15.5px] pl-[20px] text-[white] outline-0 right-0 ring-transparent  bg-[#ffffff26] font-Gilroy-Regular border-[0.86px] border-[#ffffff99]  opacity-[0.8] text-[18px] leading-[27px] sm:placeholder:text-[18px] max-xs:py-[12px] ' type="text" placeholder='Search furniture' />
         <img className='absolute top-[8px] right-[8px] ' src={search} alt="" />
       </div>
 
