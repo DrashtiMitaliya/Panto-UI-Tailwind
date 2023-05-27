@@ -48,44 +48,6 @@ const Header = () => {
                     </ul>
                 </div>
 
-
-                {/* <button data-collapse-toggle="navbar-dropdown" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-[white]  rounded-lg md:hidden focus:outline-none focus:ring-2 " aria-controls="navbar-dropdown" aria-expanded="false">
-                    <span className="sr-only"></span>
-                    <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-                </button>
-                <div className="hidden  w-full md:block md:w-auto" id="navbar-dropdown ">
-                    <ul className="flex flex-col font-medium  md:p-0 mt-4 items-center text-[white] rounded-lg md:flex-row md:mt-0 ">
-                        <li>
-                            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" className="flex  items-center justify-between w-full  text-[white] rounded font-Gilroy-Medium text-[18px] leading-[21px] max-xs:text-[13px] max-md:text-[14px]">Furniture <svg className="w-5 h-5 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path className='bg-productBgColor' fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
-
-                            <div id="dropdownNavbar" className="z-10 text-center hidden font-normal text-white rounded-lg  w-auto ">
-                                <ul className="py-2 text-sm max-xs:leading-[0.25rem] max-xs:ml-[129px] max-xs:mt-[-37px] max-xs:text-[12px] max-md:ml-[151px] max-md:mt-[-39px] max-md:leading-[8px]" aria-labelledby="dropdownLargeButton">
-                                    <li>
-                                        <a href="#" className="block px-4 py-2 ">Dashboard</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="block px-4 py-2 ">Settings</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="block px-4 py-2 ">Earnings</a>
-                                    </li>
-                                </ul>
-
-                            </div>
-                        </li>
-                        <li >
-                            <a href="#" className=" xl:ml-[64px] lg:ml-[30px] md:ml-[20px] font-Gilroy-Medium text-[18px] max-md:text-[14px] leading-[21px] max-xs:text-[13px] ">Shop</a>
-                        </li>
-                        <li >
-                            <a href="#" className="xl:ml-[64px] lg:ml-[30px] md:ml-[20px] font-Gilroy-Medium text-[18px]  max-md:text-[14px] leading-[21px] max-xs:text-[13px] ">About Us</a>
-                        </li>
-                        <li >
-                            <a href="#" className=" xl:ml-[64px]  lg:ml-[30px] md:ml-[20px] font-Gilroy-Medium text-[18px] max-md:text-[14px] leading-[21px] max-xs:text-[13px]">Contact</a>
-                        </li>
-                    </ul>
-                </div> */}
-
-
                 <div className='relative flex '>
                     <img src={cart} alt="" />
                     <div className='absolute left-[17px]'><img src={smallCart} alt="" /></div>

@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='bg-hero-img h-[1084px] bg-no-repeat bg-center bg-cover max-xs:h-[830px]'>
       <Header />
 
-      <div className='text-[white] mt-[92px] mx-[289px] text-center tracking-[-0.01em] text-[79px] leading-[104px] font-Gilroy-Bold mb-[14px] max-xs:mx-[15px] max-xs:text-[25px] max-xs:leading-[45px] max-xs:mt-[35px] max-xs:mb-[5px] max-sm:mx-[20px] max-sm:text-[30px]  max-sm:leading-[50px] max-sm:mt-[75px]   max-md:mx-[20px] max-md:text-[43px] max-md:leading-[56px] max-lg:mx-[30px] max-xl:mx-[50px]  max-xxl:mx-[60px] max-xxl:mt-[125px] max-lg:text-[58px] max-lg:leading-[74px] max-lg:mt-[108px]' >
+      <div className='text-[white] mt-[92px] mx-[289px] text-center tracking-[-0.01em] text-[80px] leading-[104px] font-Gilroy-Bold mb-[14px] max-xs:mx-[15px] max-xs:text-[25px] max-xs:leading-[45px] max-xs:mt-[35px] max-xs:mb-[5px] max-sm:mx-[20px] max-sm:text-[30px]  max-sm:leading-[50px] max-sm:mt-[75px]   max-md:mx-[20px] max-md:text-[43px] max-md:leading-[56px] max-lg:mx-[30px] max-xl:mx-[50px]  max-xxl:mx-[60px] max-xxl:mt-[125px] max-[1438px]:mx-[129px] max-lg:text-[58px] max-lg:leading-[74px] max-lg:mt-[108px]' >
         Make Your Interior More Minimalistic & Modern
       </div>
 
