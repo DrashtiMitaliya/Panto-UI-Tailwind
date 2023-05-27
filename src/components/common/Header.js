@@ -5,108 +5,93 @@ import smallCart from '../../Assets/images/smallCart.svg'
 const Header = () => {
 
     return (
-    
-<nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="#" class="flex items-center">
-        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-    </a>
-    <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
-      <span class="sr-only">Open main menu</span>
-      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-    </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
-        </li>
-        <li>
-            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Dropdown <svg class="w-5 h-5 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
-            
-            <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-                  </li>
-                </ul>
-                <div class="py-1">
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign out</a>
+
+        <nav className="bg-none">
+            <div className=" flex flex-wrap items-center justify-between pt-[40px] mx-[80px] md:pt-[25px] max-xs:pt-[15px] max-xs:mx-[30px] max-sm:pt-[18px] max-sm:mx-[37px] max-md:mx-[40px] max-md:pt-[20px]">
+                <a href="#" className="flex items-center">
+                    <span className='text-[white] font-Gilroy-Bold text-[28px] leading-[33px] tracking-[0.01em] md:text-[20px] max-xs:text-[25px]'>Panto</span>
+                </a>
+                <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 " aria-controls="navbar-dropdown" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                    <ul class="flex flex-col font-medium  md:p-0 mt-4  text-center rounded-lg text-[white] md:flex-row md:space-x-8 md:mt-0  ">
+                        
+                        <li>
+                            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center  w-full  pl-5 pr-4   p-0  md:p-0 md:w-auto  text-[white] rounded font-Gilroy-Medium text-[18px] leading-[21px] max-xs:text-[13px] max-md:text-[14px] justify-center">Furniture <svg class="w-5 h-5 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+
+                            <div id="dropdownNavbar" class="z-10 hidden font-normal divide-y  rounded-lg  ">
+                                <ul class="py-2 text-sm max-xs:leading-[0.25rem] max-xs:ml-[129px] max-xs:mt-[-37px] max-xs:text-[12px] max-md:ml-[151px] max-md:mt-[-39px] max-md:leading-[8px]" aria-labelledby="dropdownLargeButton">
+                                    <li>
+                                        <a href="#" class="block px-4 py-2">Dashboard</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="block px-4 py-2">Settings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="block px-4 py-2">Earnings</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </li>
+                        <li >
+                            <a href="#" className=" xl:ml-[64px] lg:ml-[30px] md:ml-[20px] font-Gilroy-Medium text-[18px] max-md:text-[14px] leading-[21px] max-xs:text-[13px] ">Shop</a>
+                        </li>
+                        <li >
+                            <a href="#" className="xl:ml-[64px] lg:ml-[30px] md:ml-[20px] font-Gilroy-Medium text-[18px]  max-md:text-[14px] leading-[21px] max-xs:text-[13px] ">About Us</a>
+                        </li>
+                        <li >
+                            <a href="#" className=" xl:ml-[64px]  lg:ml-[30px] md:ml-[20px] font-Gilroy-Medium text-[18px] max-md:text-[14px] leading-[21px] max-xs:text-[13px]">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                {/* <button data-collapse-toggle="navbar-dropdown" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-[white]  rounded-lg md:hidden focus:outline-none focus:ring-2 " aria-controls="navbar-dropdown" aria-expanded="false">
+                    <span className="sr-only"></span>
+                    <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                </button>
+                <div className="hidden  w-full md:block md:w-auto" id="navbar-dropdown ">
+                    <ul className="flex flex-col font-medium  md:p-0 mt-4 items-center text-[white] rounded-lg md:flex-row md:mt-0 ">
+                        <li>
+                            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" className="flex  items-center justify-between w-full  text-[white] rounded font-Gilroy-Medium text-[18px] leading-[21px] max-xs:text-[13px] max-md:text-[14px]">Furniture <svg className="w-5 h-5 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path className='bg-productBgColor' fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+
+                            <div id="dropdownNavbar" className="z-10 text-center hidden font-normal text-white rounded-lg  w-auto ">
+                                <ul className="py-2 text-sm max-xs:leading-[0.25rem] max-xs:ml-[129px] max-xs:mt-[-37px] max-xs:text-[12px] max-md:ml-[151px] max-md:mt-[-39px] max-md:leading-[8px]" aria-labelledby="dropdownLargeButton">
+                                    <li>
+                                        <a href="#" className="block px-4 py-2 ">Dashboard</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" className="block px-4 py-2 ">Settings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" className="block px-4 py-2 ">Earnings</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </li>
+                        <li >
+                            <a href="#" className=" xl:ml-[64px] lg:ml-[30px] md:ml-[20px] font-Gilroy-Medium text-[18px] max-md:text-[14px] leading-[21px] max-xs:text-[13px] ">Shop</a>
+                        </li>
+                        <li >
+                            <a href="#" className="xl:ml-[64px] lg:ml-[30px] md:ml-[20px] font-Gilroy-Medium text-[18px]  max-md:text-[14px] leading-[21px] max-xs:text-[13px] ">About Us</a>
+                        </li>
+                        <li >
+                            <a href="#" className=" xl:ml-[64px]  lg:ml-[30px] md:ml-[20px] font-Gilroy-Medium text-[18px] max-md:text-[14px] leading-[21px] max-xs:text-[13px]">Contact</a>
+                        </li>
+                    </ul>
+                </div> */}
+
+
+                <div className='relative flex '>
+                    <img src={cart} alt="" />
+                    <div className='absolute left-[17px]'><img src={smallCart} alt="" /></div>
                 </div>
             </div>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-
-
-
-
-
-
-        //         <nav className='bg-none'>
-        //             <div className='py-[40px] items-center mx-[80px] flex justify-between max-xs:mx-[40px] max-sm:mx-[50px] max-md:mx-[60px] '>
-        //                 <a href="">
-        //                     <span className='text-[white] font-Gilroy-Bold text-[28px] leading-[33px] tracking-[0.01em]'>Panto</span>
-        //                 </a>
-
-        //                 <div class="hidden lg:block  ">
-        //                     <div class="   ">
-
-
-        // <button id="dropdownDefaultButton" data-dropdown-toggle="dropdownId" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Dropdown button <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-
-        // <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-        //     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-        //       <li>
-        //         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-        //       </li>
-        //       <li>
-        //         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-        //       </li>
-        //       <li>
-        //         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-        //       </li>
-        //       <li>
-        //         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-        //       </li>
-        //     </ul>
-        // </div>
-
-
-        //                         <a href="#" className="font-Gilroy-Medium text-[18px] leading-[21px] max-lg:pl-[40px] max-xl:pl-[45px] pl-[62px] text-[white]">Shop</a>
-        //                         <a href="#" className="font-Gilroy-Medium text-[18px] leading-[21px] max-lg:pl-[40px] max-xl:pl-[45px] pl-[62px] text-[white]">About Us</a>
-        //                         <a href="#" className="font-Gilroy-Medium text-[18px] leading-[21px] max-lg:pl-[40px] pl-[62px] max-xl:pl-[45px] text-[white]">Contact</a>
-        //                     </div>
-        //                 </div>
-
-
-        //                 <div className='relative flex '>
-        //                     <img src={cart} alt="" />
-        //                     <div className='absolute left-[17px]'><img src={smallCart} alt="" /></div>
-        //                 </div>
-        //             </div>
-
-
-        //         </nav>
+        </nav>
 
 
     )
