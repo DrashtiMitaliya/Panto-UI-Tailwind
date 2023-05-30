@@ -40,7 +40,10 @@
     }
 
     @media (max-width :map-get($breakpoints , xs)) {
-        left: 1px;
+        left: 8px !important;
+        height: 25px !important;
+        width: 25px !important;
+        background-size: 14px !important;
     }
 }
 
@@ -84,7 +87,10 @@
     }
 
     @media (max-width :map-get($breakpoints , xs)) {
-        right: 1px;
+        right: 8px !important;
+        height: 25px !important;
+        width: 25px !important;
+        background-size: 14px !important;
     }
 
     .slick-next:focus,
@@ -134,7 +140,10 @@
         }
 
         @media (max-width :map-get($breakpoints , xs)) {
-            left: 1px !important;
+            left: 6px !important;
+            height: 25px !important;
+            width: 25px !important;
+            background-size: 14px !important;
         }
     }
 
@@ -185,7 +194,10 @@
         }
     
         @media (max-width :map-get($breakpoints , xs)) {
-            right: 1px !important;
+            right: 6px !important;
+            height: 25px !important;
+            width: 25px !important;
+            background-size: 14px !important;
         }
     
         .slick-next:focus,

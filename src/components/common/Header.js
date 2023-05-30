@@ -23,7 +23,7 @@ const Header = () => {
         >
           <span class="sr-only">Open main menu</span>
           <svg
-            class="w-6 h-6"
+            class="w-6 h-6 bg-productButtonBgColor rounded-[5px]"
             aria-hidden="true"
             fill="currentColor"
             viewBox="0 0 20 20"
@@ -36,13 +36,13 @@ const Header = () => {
             ></path>
           </svg>
         </button>
-        <div class="hidden w-full md:block md:w-auto  " id="navbar-dropdown">
+        <div class="hidden w-[90%] md:block md:w-auto max-md:bg-[white]  max-md:absolute top-[15%] left-[5%] max-xs:top-[14%] " id="navbar-dropdown">
           <ul class="flex flex-col font-medium  md:p-0 mt-4  text-center items-center rounded-lg text-[white] md:flex-row md:space-x-8 md:mt-0  ">
             <li>
               <button
                 id="dropdownNavbarLink"
                 data-dropdown-toggle="dropdownNavbar"
-                class="flex items-center  max-lg:text-[14px] w-full  pl-5 pr-4   p-0  md:p-0 md:w-auto  text-[white] rounded font-Gilroy-Medium text-[18px] leading-[21px] max-xs:text-[13px] max-md:text-[14px] justify-center"
+                class="flex items-center max-md:text-[black] max-lg:text-[14px] w-full  pl-5    p-0  md:p-0 md:w-auto  text-[white] rounded font-Gilroy-Medium text-[18px] leading-[21px] max-xs:text-[13px] max-md:text-[14px] justify-center"
               >
                 Furniture{" "}
                 <svg
@@ -65,11 +65,11 @@ const Header = () => {
                 class="z-10 hidden font-normal divide-y  rounded-lg  "
               >
                 <ul
-                  class="py-1 bg-productButtonBgColor text-[black] rounded-[5px] text-sm max-xs:leading-[0.25rem] max-xs:ml-[156px] max-xs:mt-[-28px] max-md:ml-[186px] max-md:mt-[-28px]  max-xs:text-[12px] max-md:leading-[8px]"
+                  class="py-1 bg-productButtonBgColor text-[black] rounded-[5px] text-sm max-xs:leading-[0.25rem] max-xs:ml-[165px] max-xs:mt-[-28px] max-md:ml-[203px] max-md:mt-[-28px]  max-xs:text-[12px] max-md:leading-[8px]"
                   aria-labelledby="dropdownLargeButton"
                 >
                   <li>
-                    <a href="/" class="block px-4 max-xs:px-2 py-1 max-md:py-2">
+                    <a href="/" class="block px-4 max-xs:px-2  py-1 max-md:py-2">
                       Dashboard
                     </a>
                   </li>
@@ -89,7 +89,7 @@ const Header = () => {
             <li>
               <a
                 href="/"
-                className=" xl:ml-[64px] lg:ml-[30px] md:ml-[20px] font-Gilroy-Medium  max-lg:text-[14px] text-[18px] max-md:text-[14px] leading-[21px] max-xs:text-[13px] "
+                className=" xl:ml-[64px] lg:ml-[30px] max-md:text-[black] md:ml-[20px] font-Gilroy-Medium  max-lg:text-[14px] text-[18px] max-md:text-[14px] leading-[21px] max-xs:text-[13px] "
               >
                 Shop
               </a>
@@ -97,7 +97,7 @@ const Header = () => {
             <li>
               <a
                 href="/"
-                className="xl:ml-[64px] lg:ml-[30px] md:ml-[20px] font-Gilroy-Medium text-[18px]  max-lg:text-[14px] max-md:text-[14px] leading-[21px] max-xs:text-[13px] "
+                className="xl:ml-[64px] lg:ml-[30px] max-md:text-[black] md:ml-[20px] font-Gilroy-Medium text-[18px]  max-lg:text-[14px] max-md:text-[14px] leading-[21px] max-xs:text-[13px] "
               >
                 About Us
               </a>
@@ -105,7 +105,7 @@ const Header = () => {
             <li>
               <a
                 href="/"
-                className=" xl:ml-[64px]  lg:ml-[30px]  md:ml-[20px] font-Gilroy-Medium text-[18px] max-md:text-[14px]  max-lg:text-[14px] leading-[21px] max-xs:text-[13px]"
+                className=" xl:ml-[64px]  lg:ml-[30px] max-md:text-[black]  md:ml-[20px] font-Gilroy-Medium text-[18px] max-md:text-[14px]  max-lg:text-[14px] leading-[21px] max-xs:text-[13px]"
               >
                 Contact
               </a>
@@ -113,7 +113,7 @@ const Header = () => {
           </ul>
         </div>
 
-        <div className="relative flex max-md:absolute max-md:top-[22px] max-md:left-[48%]">
+        <div className="relative flex max-md:absolute max-md:top-[22px] max-md:left-[80%] max-sm:left-[69%] max-xs:left-[65%]">
           <img src={cart} alt="" />
           <div className="absolute left-[17px]">
             <img src={smallCart} alt="" />
