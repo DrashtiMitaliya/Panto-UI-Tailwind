@@ -30,7 +30,7 @@ const ReviewSlider = () => {
         ],
       };
   return (
-    <div className="container mx-auto xl:max-w-[1186px] pb-[214px] max-xs:pb-[100px] max-sm:pb-[120px] max-md:pb-[150px] max-lg:pb-[19  0px]">
+    <div className="container reviewGallery mx-auto xl:max-w-[1186px] pb-[214px] max-xs:pb-[100px] max-sm:pb-[120px] max-md:pb-[150px] max-lg:pb-[19  0px]">
         <Slider {...settings}>
         {ClientReview.map((client) => (
           <>

@@ -40,5 +40,23 @@ export const ClientReview = [
     name: "Pedagang Asongan",
     review:
       "Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal",
+  },{
+    id: "r5",
+    image: client2,
+    bgImg: bgImg2,
+    title: "Ibuk Sukijan",
+    name: "Ibu Rumah Tangga",
+    review:
+      "“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah“",
   },
+  {
+    id: "r6",
+    image: client3,
+    bgImg: bgImg3,
+    title: "Mpok Ina",
+    name: "Karyawan Swasta",
+    review: "“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“",
+  },
+
+  
 ];
